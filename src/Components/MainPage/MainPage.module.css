@@ -1,0 +1,44 @@
+.ProductCard{
+  width: 250px;
+  height:400px;
+  border: 1px solid black;;
+  margin:25px;
+  box-shadow: 2px 4px 4px rgba(211, 46, 46, 0);  
+}
+
+.ProductImage{
+    width:100%;
+    height:75%;
+
+}
+.MainPage{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.ProductName{
+    margin: 5px auto;
+    text-align: left;
+    margin-left:10px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.Wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+
+.ProductPrice{
+    margin-left: 10px;
+}
+
+.Button{
+    margin-right: 10px;
+    height:30px
+}
